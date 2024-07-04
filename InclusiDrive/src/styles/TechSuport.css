@@ -1,0 +1,89 @@
+main {
+  text-align: center;
+  vertical-align: center;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#divTitulo{
+  color: white;
+  font-family: "Poppins-Regular";
+}
+
+#nome{
+  color: white;
+  font-family: "Poppins-Regular";
+}
+
+#imgAtendimento{
+  transform: scale(0.40);
+  margin: 20px;
+}
+
+#imgWhatsapp{
+  transform: scale(0.30);
+  height: 150px;
+  position: absolute;
+  margin-top: -176px;
+  margin-left: 62px
+  
+}
+
+#divImagemAtendimento{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  margin-left: 20px;
+}
+
+.campoFormulario{
+  font-family: 'Poppins-Regular';
+  padding-left: 10px;
+  background-color: #DDC27C;
+  width: 320px;
+  height: 40px;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+h3{
+  margin: 5px;
+  height: 20px;
+  color: white;
+  font-family: "Poppins-Regular";
+}
+
+h1{
+  margin: 7px;
+  margin-left: 20px;
+  
+}
+
+#div{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 23px;
+}
+
+#formDescricao{
+  height: 125px;
+}
+
+#botaoEnviar{
+  background-color: #DDC27C;
+  border-radius: 20px;
+  width: 320px;
+  height: 40px;
+  margin: 10px;
+  font-family: "Poppins-Regular";
+  font-size: 16px;
+  color: black;
+  border: none;
+}

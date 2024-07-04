@@ -1,0 +1,29 @@
+.div-bemvindo {
+  font-family: 'Poppins-Regular';
+  color: aliceblue;
+  text-align: center;
+  white-space: pre-line;
+}
+
+.button-bemvindo { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-bemvindo button {
+  font-size: 20px;
+  width: 300px;
+  height: 70px;
+  margin: 7px;
+  border-radius: 10px;
+  background-color: #DDC27C;
+  color: black;
+}
+
+.clique-aqui{
+  font-family: 'Poppins-Regular';
+  text-align: center;
+  color: white;
+}

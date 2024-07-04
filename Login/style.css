@@ -1,0 +1,52 @@
+div {
+  margin: 10px 20px;
+}
+
+#form-login {
+  background-color: orange;
+  padding: 10px;
+  width: 40%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.center {
+  
+  text-align: center;
+}
+
+.destaque {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+* {
+  font-family: verdana, arial, Roboto;
+}
+
+form div button {
+  height: 30px;
+  width: 100px;
+  border-radius: 10px;
+  /*border-bottom-left-radius: 100px;*/
+}
+
+button:hover {
+  background-color: tomato;
+  cursor: pointer;
+}
+form div input{
+  border-radius: 10px;
+  height:20px;
+}
+@media(max-width:600px){
+  #form-login{
+    width: 100%;
+  }
+  input{
+    width:70%;
+  }
+}
+input+label{
+  font-style: italic;
+}

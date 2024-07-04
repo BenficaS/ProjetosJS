@@ -1,0 +1,24 @@
+.div-user{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 36px;
+}
+
+.cadastrar-but{
+  margin-top: 40px;
+  background-color: #DDC27C;
+  width: 220px;
+  height: 50px;
+  border-radius: 20px;
+  font-family: 'Poppins-Regular';
+  color: black;
+  font-size: 20px;
+  font-family: 'Poppins-Regular'
+}
+
+.div-registrar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

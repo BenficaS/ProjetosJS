@@ -1,0 +1,14 @@
+.style-input {
+  font-family: 'Poppins-Regular';
+  padding-left: 10px;
+  background-color: #DDC27C;
+  width: 320px;
+  height: 40px;
+  margin: 10px;
+  border-radius: 20px;
+  border: 1px solid #DDC27C;
+}
+
+.style-input::placeholder {
+  color: black;
+}
