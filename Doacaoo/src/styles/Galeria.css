@@ -1,0 +1,50 @@
+#imageG{
+  width:400px;
+  height:240px;
+  border-radius:30px;
+}
+.conteinerg{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main-conteiner{
+  position:relative;
+  
+}
+.conteinerg-interno{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  padding:30px;
+  
+}
+#h1-conteiner{
+color:black;
+text-align:center;
+text-align:justify;
+padding:15px;
+border-radius:30px;
+}
+.fundo {
+  display:
+  position: relative;
+  overflow: hidden;
+}
+#fundo-imagem {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1; 
+  opacity:0.4;
+}
+  
+
+
+
+
+
+

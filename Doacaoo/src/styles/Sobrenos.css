@@ -1,0 +1,45 @@
+.conteiners{
+  width:100%
+}
+.image-container {
+  display: grid;
+  position: relative;
+}
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: grid;
+  text-align: center;
+  color: white;
+  grid-template-areas:
+    "layout10 layout"
+    "head layout11"
+    "layout12 a";
+}
+
+.layout10 {
+  grid-area: layout10;
+  width: 500px;
+  padding: 40px;
+  text-align: justify;
+}
+
+.layout11 {
+  grid-area: layout11;
+  width: 400px;
+  height: 100px;
+  padding-left: 500px;
+  text-align: justify;
+
+}
+
+.layout12 {
+  grid-area: layout12;
+  width: 500px;
+  padding: 30px;
+  text-align: justify;
+  padding:40px;
+  padding-right:100px;
+}

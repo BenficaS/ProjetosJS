@@ -1,0 +1,23 @@
+.div-menu{
+  flex: 0.3;
+  text-align: center;
+}
+.div-layout{
+  margin: 0px;
+  align-items: center;
+  height: 150px;
+  display: flex;
+  width: 100%;
+  background-color: #c925ff;
+}
+.div-conteiner {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex: 1;
+  justify-content: space-evenly;
+}
+h1:hover{
+  cursor: pointer;
+  color: black;
+}
